@@ -22,7 +22,7 @@ pipeline {
     stage('message') {
       steps {
         echo 'Iniciando CI Process'
-        sh 'docker build -t marmotae/webserver:v4 '
+        sh 'docker build -t marmotae/webserver:v4 .'
       }
     }
 
